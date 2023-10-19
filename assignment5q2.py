@@ -1,4 +1,7 @@
 class Subject:
+    # https://sourcemaking.com/design_patterns/observer/python/1
+    # https://www.geeksforgeeks.org/observer-method-python-design-patterns/
+    # https://www.linkedin.com/advice/3/how-do-you-implement-observer-pattern-python-skills-programming
     def __init__(self):
         self.observers = []
         self.data = {}
