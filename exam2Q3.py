@@ -38,9 +38,9 @@ def convexHull(points):
 
             if sameSide:
                 if points[i] not in hullPoints:
-                    hullPoints.append(points[i])
+                    hullPoints = hullPoints + [points[i]]
                 if points[j] not in hullPoints:
-                    hullPoints.append(points[j])
+                    hullPoints = hullPoints + [points[j]]
 
     return hullPoints
 
